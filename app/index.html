@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app='sampleNgView'>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <script src='../bower_components/jquery/dist/jquery.js'></script>
+    <script src='../bower_components/angular/angular.js'></script>
+    <script src='../bower_components/angular-route/angular-route.js'></script>
+    <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src='scripts/script.js'></script>
+    </head>
+    <body>
+        <div>
+            <a href='#/'>Page 1</a>
+            <a href='#/pageTwo'>Page 2</a>
+            <a href='#/pageThree'>Page 3</a>
+        </div>
+        <div>
+            <ng-view></ng-view>
+        </div>
+    </body>
+</html>
